@@ -1,63 +1,67 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
+# Editor temporary files
+.#*
+*\#*\#
+[#]*#
+*~
+*$
+*.bak
+*.log
+*.swp
+*.pdb
+.project
+.pydevproject
+.idea
+.settings
+.vagrant
+.noseids
+.ipynb_checkpoints
+.cache/
+.vscode/
+*.csv
+*.png
+*.jpg
+*.htm
+*.html
+*.js
+*.css
+*.js.min
+*.zip
+*.tar
+*.gz
+*.rar
+*.ttf
+input/
+output/
+logs/
+*.log
+core.*
 
-# C extensions
+# Compiled source
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.py[ocd]
 *.so
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+# Python files
+build
+doc/_build
+dist
+*.egg-info
+*.eggs
+*.whl
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
+# Testing tools
 .coverage
-.coverage.*
-.cache
-nosetests.xml
 coverage.xml
-*,cover
+coverage_html_report
 
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# VIM
-*.sw?
-
-# IPython notebook checkpoints
-.ipynb_checkpoints/
+# OS files
+.directory
+.gdb_history
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
